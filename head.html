@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="dist/css/bootstrap.min.css">    
+  <script src="dist/jquery.min.js"></script>
+  <script src="dist/js/bootstrap.min.js"></script>
+<style>
+.affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+</style>
+</head>
+
+<body>
+<div class="container-fluid" style="background-color:#F44336;color:#fff;height:150px;">
+  <p>
+  <div class="row">
+	<div class="col-md-4"><img src="image/logo.jpg" alt="life blood" width="120" height="120"></div>
+	<div class="col-md-4"><h1><p class="text-center">LIFE<br> BLOOD </p></h1></div>
+		<div class="col-md-4"><h1 class="text-right">Gift a smile,<br> Gift  a  drop</h1></div>
+			</div></img></p>
+</div>
+
+	<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="125">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand">Life Blood</a>
+    </div>
+    <ul class="nav navbar-nav">
+		<li><a href="index.php">Home</a></li>
+		<li><a href="search.php">Search</a></li>
+		<li><a href="events.php">Events</a></li>
+		<!--li><a href="Signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li-->
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+		<li><a href="Signup.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+	<!--li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li></li-->
+	<form class="navbar-form navbar-right">
+      <div class="form-group">
+        <input type="email" class="form-control" placeholder="email">
+		<input type="password" class="form-control" placeholder="password">
+      </div>
+      <button type="submit" class="btn btn-success">Login</button>
+    </form>
+    </ul>
+</div>  
+</nav>
+
+</body>
+</html>	
